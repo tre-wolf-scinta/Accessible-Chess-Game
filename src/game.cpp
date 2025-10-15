@@ -31,6 +31,7 @@ void Game::displayBoard() const {
 }
 
 bool Game::makeMove(const std::string& move) {
+    (void)move; // Mark parameter as used to avoid unused warning
     if (gameOver) {
         return false;
     }
@@ -39,6 +40,7 @@ bool Game::makeMove(const std::string& move) {
     // Move implementation will go here
     return true;
 }
+
 
 bool Game::isGameOver() const {
     return gameOver;

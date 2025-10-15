@@ -39,3 +39,14 @@
 
 # debug information files
 *.dwo
+
+# misc
+.claude/
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/compile_commands.json
+/*.sln
+/*.vcxproj
+/*.vcxproj.filters
+/*.user
