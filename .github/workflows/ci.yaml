@@ -24,6 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Dependencies
       - name: Install deps (Linux)
         if: matrix.os == 'ubuntu-latest'
         run: |
@@ -36,12 +37,27 @@ jobs:
           brew update
           brew install ninja || true
 
+      # Windows runners generally have Ninja already. If not, uncomment:
+      # - name: Install deps (Windows)
+      #   if: matrix.os == 'windows-latest'
+      #   run: choco install ninja -y
+
+      # Always start clean
+      - name: Clean build dir
+        run: cmake -E remove_directory build
+
+      # Configure (unique build dir per OS/config)
       - name: Configure
-        run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DENABLE_TESTS=ON
+        run: cmake -S . -B build/${{ matrix.os }}/${{ matrix.build_type }} -G Ninja -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DENABLE_TESTS=ON
 
+      # Optional: show key CMake cache entries (helps debug generator/flags)
+      - name: Show CMake cache
+        run: cmake -LAH -N build/${{ matrix.os }}/${{ matrix.build_type }}
+
+      # Build
       - name: Build
-        run: cmake --build build --config ${{ matrix.build_type }}
+        run: cmake --build build/${{ matrix.os }}/${{ matrix.build_type }} --config ${{ matrix.build_type }}
 
+      # Test
       - name: Run tests
-        run: |
-          ctest --test-dir build --output-on-failure -C ${{ matrix.build_type }}
+        run: ctest --test-dir build/${{ matrix.os }}/${{ matrix.build_type }} --output-on-failure -C ${{ matrix.build_type }}
