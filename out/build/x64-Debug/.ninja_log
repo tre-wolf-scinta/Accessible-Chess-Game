@@ -1,0 +1,21 @@
+# ninja log v6
+65	134	7824285352839561	C:/Users/tre_s/OneDrive/Desktop/DevLaunch/Projects/Accessible-Chess-Game/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d01a9fa689494790
+158	928	7824285353738794	CMakeFiles/chess.dir/src/Core/piece.cpp.obj	4343d0a5d5c43811
+233	934	7824285354516938	CMakeFiles/chess_tests.dir/src/Patterns/command.cpp.obj	9e85038f944132d
+144	934	7824285353636886	CMakeFiles/chess.dir/src/Core/coord.cpp.obj	b3f37d5cfe3c6640
+138	934	7824285353552857	CMakeFiles/chess.dir/src/Core/board.cpp.obj	453be6f5f36badf6
+206	937	7824285354237235	CMakeFiles/chess_tests.dir/src/Core/board.cpp.obj	5cd0dda7a04fa617
+219	939	7824285354356201	CMakeFiles/chess_tests.dir/src/Core/move.cpp.obj	814c6720aeeda433
+175	941	7824285353938810	CMakeFiles/chess.dir/src/Patterns/observer.cpp.obj	4c5101a5827662b0
+213	941	7824285354322929	CMakeFiles/chess_tests.dir/src/Core/coord.cpp.obj	ed7f8b4b31506ab4
+239	944	7824285354592330	CMakeFiles/chess_tests.dir/src/Patterns/observer.cpp.obj	a66c194149e2d4fe
+168	944	7824285353874614	CMakeFiles/chess.dir/src/Patterns/command.cpp.obj	d95f86d319f91655
+226	945	7824285354453705	CMakeFiles/chess_tests.dir/src/Core/piece.cpp.obj	ffcff1aaf0e0b906
+150	947	7824285353636886	CMakeFiles/chess.dir/src/Core/move.cpp.obj	4d97f302e635073f
+183	1408	7824285354036323	CMakeFiles/chess.dir/src/game.cpp.obj	caedc85257c72ba3
+191	1410	7824285354115770	CMakeFiles/chess.dir/src/main.cpp.obj	dc63f74a783bf25b
+244	1419	7824285354637948	CMakeFiles/chess_tests.dir/src/game.cpp.obj	f4a647cb2054fc6d
+197	1446	7824285354157034	CMakeFiles/chess_tests.dir/tests/main.cpp.obj	3da1ee0ba8e1e6e0
+1410	1821	7824285366305013	chess.exe	e9af7645d74f594f
+1446	1878	7824285366644139	chess_tests.exe	b3cfb1cfa747dd9a
+46	85	7824285774217544	C:/Users/tre_s/OneDrive/Desktop/DevLaunch/Projects/Accessible-Chess-Game/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d01a9fa689494790
