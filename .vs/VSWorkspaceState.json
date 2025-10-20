@@ -6,11 +6,8 @@
     ]
   },
   "ExpandedNodes": [
-    "",
-    "\\include",
-    "\\include\\chess",
-    "\\include\\chess\\core"
+    ""
   ],
-  "SelectedNode": "\\include\\chess\\core\\piece.hpp",
+  "SelectedNode": "\\C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game",
   "PreviewInSolutionExplorer": false
 }

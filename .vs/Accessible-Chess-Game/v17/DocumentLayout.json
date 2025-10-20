@@ -31,7 +31,7 @@
               "RelativeDocumentMoniker": "include\\chess\\core\\piece.hpp",
               "ToolTip": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\piece.hpp",
               "RelativeToolTip": "include\\chess\\core\\piece.hpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAQwFMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-17T22:26:32.975Z",
               "EditorCaption": ""
@@ -50,8 +50,7 @@
               "RelativeToolTip": "include\\chess\\core\\coord.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-17T15:48:20.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T15:48:20.573Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "DocumentMoniker": "CMake Overview Pages",
               "ToolTip": "CMake Overview Pages",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-17T15:35:38.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T15:35:38.262Z"
             }
           ]
         }

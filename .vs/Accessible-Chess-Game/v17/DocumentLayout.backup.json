@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\piece.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\chess\\core\\piece.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\coord.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\chess\\core\\coord.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,29 +26,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "coord.hpp",
-              "DocumentMoniker": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\coord.hpp",
-              "RelativeDocumentMoniker": "include\\chess\\core\\coord.hpp",
-              "ToolTip": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\coord.hpp",
-              "RelativeToolTip": "include\\chess\\core\\coord.hpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwDQAAAABAAAAAAAAAA==",
+              "Title": "piece.hpp",
+              "DocumentMoniker": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\piece.hpp",
+              "RelativeDocumentMoniker": "include\\chess\\core\\piece.hpp",
+              "ToolTip": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\piece.hpp",
+              "RelativeToolTip": "include\\chess\\core\\piece.hpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwFMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-17T15:48:20.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CMake Overview Pages",
-              "DocumentMoniker": "CMake Overview Pages",
-              "ToolTip": "CMake Overview Pages",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-17T15:35:38.262Z",
+              "WhenOpened": "2025-10-17T22:26:32.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "coord.hpp",
+              "DocumentMoniker": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\coord.hpp",
+              "RelativeDocumentMoniker": "include\\chess\\core\\coord.hpp",
+              "ToolTip": "C:\\Users\\tre_s\\OneDrive\\Desktop\\DevLaunch\\Projects\\Accessible-Chess-Game\\include\\chess\\core\\coord.hpp",
+              "RelativeToolTip": "include\\chess\\core\\coord.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-17T15:48:20.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CMake Overview Pages",
+              "DocumentMoniker": "CMake Overview Pages",
+              "ToolTip": "CMake Overview Pages",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-17T15:35:38.262Z"
             }
           ]
         }
