@@ -1,0 +1,16 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\include",
+    "\\include\\chess",
+    "\\include\\chess\\core"
+  ],
+  "SelectedNode": "\\include\\chess\\core\\piece.hpp",
+  "PreviewInSolutionExplorer": false
+}
