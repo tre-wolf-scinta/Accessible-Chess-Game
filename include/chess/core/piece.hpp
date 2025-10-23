@@ -32,8 +32,8 @@ struct Piece {
 
     // Parameterized constructor
     constexpr Piece(PieceType type, Color color) noexcept
-        : data{ static_cast<std::uint8_t>(static_cast<std::uint8_t>(type) & kTypeMask)
-              | static_cast<std::uint8_t>(static_cast<std::uint8_t>(color) << kColorShift) } {
+        : data{ static_cast<std::uint8_t>((static_cast<std::uint8_t>(type) & kTypeMask)
+              | (static_cast<std::uint8_t>(color) << kColorShift)) } {
     }
 
     // --- MEMBER FUNCTIONS ---

@@ -95,8 +95,8 @@ public:
 
 // MOVE VALIDATION
   [[nodiscard]] bool isValidMove(const Move& move) const noexcept;
-  [[nodiscard]] std::vector<Move> getLegalMoves(Coord pos) const;
-  [[nodiscard]] std::vector<Move> getAllLegalMoves(Color color) const;
+  [[nodiscard]] std::vector<Move> getLegalMoves(Coord pos, std::vector<Move>& moves) const;
+  [[nodiscard]] std::vector<Move> getAllLegalMoves(Color color, std::vector<Move>& moves) const;
 
 // CHECKMATE DETECTION
   [[nodiscard]] bool isSquareAttacked(Coord pos, Color byColor) const noexcept;
