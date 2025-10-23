@@ -1,6 +1,6 @@
 #pragma once
-#include "piece.h"
-#include "coord.h"
+#include "piece.hpp"
+#include "coord.hpp"
 
 struct Move {
     Coord from{};

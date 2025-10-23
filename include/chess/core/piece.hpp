@@ -80,6 +80,7 @@ struct Piece {
     [[nodiscard]] std::string toString() const {
         if (isEmpty()) return "Empty";
         const char* typeStr = "Unknown";
+        switch (getType()) {
         case PieceType::Pawn:   typeStr = "Pawn";  break;
         case PieceType::Knight: typeStr = "Knight"; break;
         case PieceType::Bishop: typeStr = "Bishop"; break;
